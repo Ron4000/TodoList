@@ -68,6 +68,7 @@ const TodoList = () => {
             </ul>
             <div className="add_list">
               <input
+                type="text"
                 className="list-input"
                 value={listInputs[index] || ''}
                 onChange={(e) => handleListInputChange(index, e.target.value)}
